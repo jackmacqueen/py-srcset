@@ -43,6 +43,11 @@ png_quality = 90
 ```
 These are the quality settings for each format in use.
 
+```
+usesAlpha = False
+```
+Whether or not to use the alpha channel. If true then PNG files be generated as the fallback image format, if false then JPEGs.
+
 Currently there are no options for running through the terminal only however I may update to include that in the future.
 
 ## Benchmark
